@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Cultivo de palma de aceite: mantenimiento del cultivo y cosecha del fruto.',
+    Description:
+      'En este componente formativo el aprendiz conocerá cómo realizar control de malezas, manejo integrado de plagas y enfermedades, nutrición, riego y poda, así como los criterios de madurez, frecuencia de cosecha, herramientas, pronósticos de producción y sistemas de transporte. Además, incluyen descripciones de plagas, enfermedades y prácticas para garantizar productividad, calidad del fruto y sostenibilidad del cultivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +37,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Mantenimiento del Cultivo de Palma de Aceite',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Control de malezas',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Manejo integrado de plagas y enfermedades',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Manejo nutricional del cultivo',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Manejo del agua en el lote',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Podas',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,14 +71,50 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Cosecha del Fruto de Palma de Aceite',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Proceso de cosecha',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Estado de madurez del racimo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Pronósticos de producción',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Frecuencia de cosecha',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Herramientas de cosecha',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Procedimiento de cosecha',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Control de calidad del proceso',
+            hash: 't_2_7',
+          },
+          {
+            numero: '2.8',
+            titulo: 'Recolección y transporte',
+            hash: 't_2_8',
+          },
+        ],
       },
     ],
     subMenu: [
