@@ -194,8 +194,10 @@
 
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema1/slide2_04.png")
+                    figure.indicador__container
+                      img(src="@/assets/curso/tema1/slide2_04.png")  
+                              
+
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Acciones preventivas
                     ul.lista-ul
@@ -828,6 +830,8 @@
           .row(titulo="Procedimiento")
             p El operario debe ubicarse correctamente para cortar hojas bajo los racimos, fraccionarlas y organizarlas adecuadamente, distribuyendo residuos como materia orgánica y limpiando el plato para facilitar la cosecha.
         //- Inicio Accordion
+        
+
 </template>
 
 <script>
