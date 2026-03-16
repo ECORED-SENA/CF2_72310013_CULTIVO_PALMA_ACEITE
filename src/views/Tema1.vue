@@ -321,7 +321,7 @@
     //- Título con imagen
 
 
-    p(data-aos="fade-left") La fragilidad del monocultivo de palma en el trópico favorece plagas y enfermedades; por ello, analizaremos seguidamente los aspectos clave para su manejo integral.Seguidamente se presenta las etapas fundamentales del manejo integrado de plagas y enfermedades aplicadas al cultivo de palma de aceite.
+    p(data-aos="fade-left") Seguidamente se presenta las etapas fundamentales del manejo integrado de plagas y enfermedades aplicadas al cultivo de palma de aceite.
 
 
     //- Inicio Tarjetas
@@ -332,7 +332,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/tarjeta1_01.svg', alt='')
-          h4.card-title.text-center.mb-4 Tendencias
+          h4.card-title.text-center.mb-4 Prevención
           p.text-center Seleccionar variedades resistentes, aplicar riego y fertilización adecuados, conservar insectos benéficos mediante coberturas vegetales y manejar correctamente los residuos de poda para prevenir plagas y enfermedades.
 
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
@@ -341,7 +341,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/tarjeta1_02.svg', alt='')
-          h4.card-title.text-center.mb-4 Relación causa–efecto
+          h4.card-title.text-center.mb-4 Observación
           p.text-center Consiste en realizar monitoreo periódico para evaluar las prácticas preventivas, detectar plagas y enfermedades y determinar oportunamente las medidas de control necesarias.
 
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
@@ -350,7 +350,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/tarjeta1_03.svg', alt='')
-          h4.card-title.text-center.mb-4 Comparación con metas productivas
+          h4.card-title.text-center.mb-4 Aplicación
           p.text-center Según los resultados del monitoreo, se aplican medidas de control físicas, culturales, biológicas o químicas, considerando el desarrollo del cultivo y usando agroquímicos registrados por el ICA de manera responsable y segura.
     //- Fin Tarjetas
 
@@ -809,7 +809,7 @@
     //- Inicio Tema1.5
     .row.mt-5
         #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.5 Manejo del agua en el lote  
+          h2 1.5 Podas
 
 
         
