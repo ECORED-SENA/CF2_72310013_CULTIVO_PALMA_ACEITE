@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_411465" data-name="Rectangle 411465" width="115" height="115" transform="translate(800.781 1954)" fill="#e8bad8" opacity="0.41"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1207052" data-name="Group 1207052" transform="translate(-416.05 -10607)">
+    <g id="Mask_Group_1099677" data-name="Mask Group 1099677" transform="translate(-384.73 8653)" clip-path="url(#clip-path)">
+      <g id="Group_1206926" data-name="Group 1206926" transform="translate(799.781 1960.273)">
+        <g id="Group_1206925" data-name="Group 1206925">
+          <ellipse id="Ellipse_12809" data-name="Ellipse 12809" cx="28.658" cy="28.658" rx="28.658" ry="28.658" transform="translate(56.527 44.289)" fill="#7fe5cf"/>
+          <ellipse id="Ellipse_12810" data-name="Ellipse 12810" cx="20.842" cy="20.842" rx="20.842" ry="20.842" fill="#7fe5cf"/>
+        </g>
+      </g>
+    </g>
+    <g id="Page-1" transform="translate(441.051 10631)">
+      <g id="_020---Nitrogen" data-name="020---Nitrogen">
+        <g id="Icons" transform="translate(1.099 1.099)">
+          <rect id="Rectangle" width="64" height="64" rx="10" transform="translate(-0.158 -0.157)" fill="#fec108"/>
+          <path id="Path" d="M12.792,4h-2.2A6.594,6.594,0,0,0,4,10.594V52.357a6.594,6.594,0,0,0,6.594,6.594H52.357a6.594,6.594,0,0,0,6.594-6.594V10.594A6.594,6.594,0,0,0,52.357,4Z" transform="translate(0.396 0.396)" fill="#ffdc00" fill-rule="evenodd"/>
+          <path id="Path-2" data-name="Path" d="M48.3,4H45a6.594,6.594,0,0,1,6.594,6.594V52.357A6.594,6.594,0,0,1,45,58.951h3.3a6.594,6.594,0,0,0,6.594-6.594V10.594A6.594,6.594,0,0,0,48.3,4Z" transform="translate(4.456 0.396)" fill="#fec108" fill-rule="evenodd"/>
+          <g id="Group_1207048" data-name="Group 1207048" transform="translate(23.079 7.693)">
+            <path id="Path-3" data-name="Path" d="M26.1,9.2h6.045L27.283,20.864a1.1,1.1,0,0,0,.591,1.438,1.085,1.085,0,0,0,.423.085,1.1,1.1,0,0,0,1.014-.676l5.5-13.188A1.1,1.1,0,0,0,33.792,7H26.1a1.1,1.1,0,1,0,0,2.2Z" transform="translate(-20.604 -7)" fill="#f5f5f5" fill-rule="evenodd"/>
+            <path id="Path-4" data-name="Path" d="M22.1,52.575h2.2a1.1,1.1,0,0,0,1.1-1.1V33.891l7.418,18a1.074,1.074,0,0,0,1.011.681h3.66a1.1,1.1,0,0,0,1.1-1.1V25.1a1.1,1.1,0,0,0-1.1-1.1h-2.2a1.1,1.1,0,0,0-1.1,1.1V42.683l-7.3-17.705-.121-.3A1.074,1.074,0,0,0,25.759,24H22.1A1.1,1.1,0,0,0,21,25.1V51.476a1.1,1.1,0,0,0,1.1,1.1Z" transform="translate(-21 -5.317)" fill="#f5f5f5" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <g id="Icons_copy">
+          <path id="Shape" d="M53.852,0H12.089A12.1,12.1,0,0,0,0,12.089V53.852A12.1,12.1,0,0,0,12.089,65.941H53.852A12.1,12.1,0,0,0,65.941,53.852V12.089A12.1,12.1,0,0,0,53.852,0Zm9.891,53.852a9.9,9.9,0,0,1-9.891,9.891H12.089A9.9,9.9,0,0,1,2.2,53.852V12.089A9.9,9.9,0,0,1,12.089,2.2H53.852a9.9,9.9,0,0,1,9.891,9.891Z"/>
+          <path id="Path-5" data-name="Path" d="M52.07,4H19.1a1.1,1.1,0,0,0,0,2.2H52.07a5.5,5.5,0,0,1,5.5,5.5V53.456a5.5,5.5,0,0,1-5.5,5.5h-2.2a1.1,1.1,0,0,0,0,2.2h2.2a7.7,7.7,0,0,0,7.693-7.693V11.693A7.7,7.7,0,0,0,52.07,4Z" transform="translate(1.782 0.396)" fill-rule="evenodd"/>
+          <path id="Path-6" data-name="Path" d="M44.664,58.951H11.693a5.5,5.5,0,0,1-5.5-5.5V11.693a5.5,5.5,0,0,1,5.5-5.5h2.2a1.1,1.1,0,1,0,0-2.2h-2.2A7.7,7.7,0,0,0,4,11.693V53.456a7.7,7.7,0,0,0,7.693,7.693H44.664a1.1,1.1,0,0,0,0-2.2Z" transform="translate(0.396 0.396)" fill-rule="evenodd"/>
+          <path id="Path-7" data-name="Path" d="M28.874,23.3a1.085,1.085,0,0,0,.423.085,1.1,1.1,0,0,0,1.014-.676l5.5-13.188A1.1,1.1,0,0,0,34.792,8H27.1a1.1,1.1,0,1,0,0,2.2h6.045L28.283,21.864a1.1,1.1,0,0,0,.591,1.438Z" transform="translate(2.575 0.792)" fill-rule="evenodd"/>
+          <path id="Shape-2" data-name="Shape" d="M21,26.2V52.575a2.2,2.2,0,0,0,2.2,2.2h2.2a2.2,2.2,0,0,0,2.2-2.2V40.546l5.3,12.866a2.2,2.2,0,0,0,2.033,1.361h3.66a2.2,2.2,0,0,0,2.2-2.2V26.2a2.2,2.2,0,0,0-2.2-2.2h-2.2a2.2,2.2,0,0,0-2.2,2.2V38.227l-5.3-12.866A2.2,2.2,0,0,0,26.858,24H23.2A2.2,2.2,0,0,0,21,26.2Zm13.271,18a1.1,1.1,0,0,0,2.116-.419V26.2h2.2V52.575h-3.66l-7.413-18a1.1,1.1,0,0,0-2.116.419V52.575H23.2V26.2h3.66Z" transform="translate(2.079 2.377)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
