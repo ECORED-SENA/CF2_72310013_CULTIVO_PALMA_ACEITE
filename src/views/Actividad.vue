@@ -157,28 +157,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué daño ocasiona principalmente el barrenador de raíces (Sagalassa valida)?',
+          texto:
+            '¿Qué daño ocasiona principalmente el barrenador de raíces (Sagalassa valida)?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Defoliación total y progresiva de la palma de aceite cultivada.',
+              texto:
+                'Defoliación total y progresiva de la palma de aceite cultivada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Perforación profunda y progresiva del cogollo central de la palma.',
+              texto:
+                'Perforación profunda y progresiva del cogollo central de la palma.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Daño al sistema radicular afectando la absorción de nutrientes.',
+              texto:
+                'Daño al sistema radicular afectando la absorción de nutrientes.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Caída prematura y abundante sin control de frutos maduros.',
+              texto:
+                'Caída prematura y abundante sin control de frutos maduros.',
               esCorrecta: false,
             },
           ],
@@ -187,7 +192,8 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Cuál es el agente causal del anillo rojo en la palma de aceite?',
+          texto:
+            '¿Cuál es el agente causal del anillo rojo en la palma de aceite?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -217,28 +223,33 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Dónde debe aplicarse el fertilizante durante el primer año de siembra?',
+          texto:
+            '¿Dónde debe aplicarse el fertilizante durante el primer año de siembra?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'En las interlíneas exclusivamente por razones de control y seguimiento.',
+              texto:
+                'En las interlíneas exclusivamente por razones de control y seguimiento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Aplicarlo directamente sobre el tronco principal de la palma de aceite a los 90 días.',
+              texto:
+                'Aplicarlo directamente sobre el tronco principal de la palma de aceite a los 90 días.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Solo en los canales de drenaje del cultivo por estandarización, control y desarrollo.',
+              texto:
+                'Solo en los canales de drenaje del cultivo por estandarización, control y desarrollo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'En el plato, en forma circular, dejando espacio alrededor del tronco.',
+              texto:
+                'En el plato, en forma circular, dejando espacio alrededor del tronco.',
               esCorrecta: true,
             },
           ],
@@ -247,7 +258,8 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Cuál es uno de los principales objetivos de la poda en palma de aceite?',
+          texto:
+            '¿Cuál es uno de los principales objetivos de la poda en palma de aceite?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -263,7 +275,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Mantener un número adecuado de hojas para mejorar la fotosíntesis.',
+              texto:
+                'Mantener un número adecuado de hojas para mejorar la fotosíntesis.',
               esCorrecta: true,
             },
             {
@@ -277,7 +290,8 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Por qué la cosecha es considerada una de las labores más importantes en el cultivo de palma de aceite?',
+          texto:
+            '¿Por qué la cosecha es considerada una de las labores más importantes en el cultivo de palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -293,12 +307,14 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Porque de su planificación depende la cantidad y calidad del aceite obtenido.',
+              texto:
+                'Porque de su planificación depende la cantidad y calidad del aceite obtenido.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Porque elimina la necesidad de mantenimiento del cultivo.',
+              texto:
+                'Porque elimina la necesidad de mantenimiento del cultivo.',
               esCorrecta: false,
             },
           ],
@@ -307,7 +323,8 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Cuál es el mejor indicador para determinar el estado óptimo de madurez del racimo?',
+          texto:
+            '¿Cuál es el mejor indicador para determinar el estado óptimo de madurez del racimo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -337,7 +354,8 @@ export default {
         },
         {
           id: 11,
-          texto: '¿Cuándo se recomienda realizar ciclos de cosecha entre 8 y 10 días?',
+          texto:
+            '¿Cuándo se recomienda realizar ciclos de cosecha entre 8 y 10 días?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -367,7 +385,8 @@ export default {
         },
         {
           id: 12,
-          texto: '¿Qué herramienta se utiliza para cosechar racimos ubicados a más de 4 metros de altura?',
+          texto:
+            '¿Qué herramienta se utiliza para cosechar racimos ubicados a más de 4 metros de altura?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -397,7 +416,8 @@ export default {
         },
         {
           id: 13,
-          texto: 'Para estimar la producción futura, se recomienda seleccionar como muestra:',
+          texto:
+            'Para estimar la producción futura, se recomienda seleccionar como muestra:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -427,7 +447,8 @@ export default {
         },
         {
           id: 14,
-          texto: 'La madurez del racimo se alcanza entre cinco y seis meses después de la antesis.',
+          texto:
+            'La madurez del racimo se alcanza entre cinco y seis meses después de la antesis.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
