@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        'Fortalecer los conocimientos sobre la gestión del cultivo de palma de aceite mediante la ejecución adecuada de labores mantenimiento y una cosecha planificada, técnica y oportuna, garantizando óptimo desarrollo, productividad, calidad del fruto y eficiencia operativa, bajo criterios ambientales, sociales y económicos sostenibles.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,32 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el principal objetivo de las labores culturales en el cultivo de palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Aumentar de manera gradual la aplicación y utilización de productos agroquímicos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Garantizar condiciones adecuadas para el desarrollo y crecimiento del cultivo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Disminuir la cantidad de trabajadores y herramientas en la plantación agrícola.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Incrementar progresivamente la siembra planificada de cultivos agrícolas asociados.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +63,30 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Por qué es importante el control de malezas en los primeros años de la plantación?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Porque mejora la estética del cultivo de palma de aceite.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Porque evita la erosión del suelo de palma únicamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Porque reduce la competencia por agua, luz y nutrientes.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Porque elimina todas las plantas consideradas muy benéficas.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +95,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cada cuánto se recomienda realizar la limpieza del plato en palmas hasta 2 años?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Cada 15 días.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Cada 30 días.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Cada 60 días.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una vez al año.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +127,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuáles son las etapas del manejo integrado de plagas y enfermedades?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Diagnóstico, erradicación y fertilización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Monitoreo, cosecha y transporte.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Prevención, observación y aplicación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Aplicación, erradicación y riego.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +157,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué daño ocasiona principalmente el barrenador de raíces (Sagalassa valida)?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Defoliación total y progresiva de la palma de aceite cultivada.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Perforación profunda y progresiva del cogollo central de la palma.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Daño al sistema radicular afectando la absorción de nutrientes.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Caída prematura y abundante sin control de frutos maduros.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +187,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el agente causal del anillo rojo en la palma de aceite?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: '<i>Bursaphelenchus cocophilus.</i>',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '<i>Phytomonas staheli.</i>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '<i>Phytophthora palmivora.</i>',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '<i>Haplaxius crudus.</i>',
               esCorrecta: false,
             },
           ],
@@ -211,30 +217,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Dónde debe aplicarse el fertilizante durante el primer año de siembra?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'En las interlíneas exclusivamente por razones de control y seguimiento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Aplicarlo directamente sobre el tronco principal de la palma de aceite a los 90 días.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo en los canales de drenaje del cultivo por estandarización, control y desarrollo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'En el plato, en forma circular, dejando espacio alrededor del tronco.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -242,29 +247,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál es uno de los principales objetivos de la poda en palma de aceite?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Reducir la altura de la palma.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Incrementar la sombra en el cultivo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Mantener un número adecuado de hojas para mejorar la fotosíntesis.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar completamente las inflorescencias.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +277,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Por qué la cosecha es considerada una de las labores más importantes en el cultivo de palma de aceite?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Porque reduce el número de trabajadores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Porque garantiza exclusivamente el transporte del fruto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque de su planificación depende la cantidad y calidad del aceite obtenido.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Porque elimina la necesidad de mantenimiento del cultivo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,20 +307,29 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Cuál es el mejor indicador para determinar el estado óptimo de madurez del racimo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El tamaño del racimo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El número de hojas de la palma.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La altura del estípite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El desprendimiento natural de frutos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -315,20 +337,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cuándo se recomienda realizar ciclos de cosecha entre 8 y 10 días?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'En palmas menores de seis años.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'En palmas mayores de seis años.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'En época de verano únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'En plantaciones con baja producción.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,20 +367,29 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué herramienta se utiliza para cosechar racimos ubicados a más de 4 metros de altura?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Cincel.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Palín.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Chuza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cuchillo malayo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -357,19 +397,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'Para estimar la producción futura, se recomienda seleccionar como muestra:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El 10% de las palmas del lote.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El 5% de las palmas del lote.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Todas las palmas adultas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo las palmas jóvenes.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +427,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'La madurez del racimo se alcanza entre cinco y seis meses después de la antesis.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +457,58 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: 'XXXXXXXXXXXXXXXXXXX',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'XXXXXXXXXXXXXXXXXXX',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'XXXXXXXXXXXXXXXXXXX',
               esCorrecta: false,
             },
           ],
