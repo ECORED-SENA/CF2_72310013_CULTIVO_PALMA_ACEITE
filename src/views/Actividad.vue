@@ -448,28 +448,28 @@ export default {
         {
           id: 14,
           texto:
-            'La madurez del racimo se alcanza entre cinco y seis meses después de la antesis.',
+            '¿Cómo realizan los cosechadores el recorrido del lote durante la cosecha?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '',
-              esCorrecta: false,
+              texto: 'Avanzando en zigzag por todo el lote.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Caminando en líneas rectas continuas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Trabajando únicamente en los bordes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Siguiendo caminos previamente trazados.',
               esCorrecta: false,
             },
           ],
@@ -478,28 +478,28 @@ export default {
         },
         {
           id: 15,
-          texto: 'XXXXXXXXXXXXXXXXXXX',
+          texto: '¿Cómo se verifica la madurez de los racimos en la cosecha?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Por el tamaño total del racimo de la planta.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
-              esCorrecta: false,
+              texto: 'Mediante el desprendimiento de frutos.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Observando el color de las hojas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Midiendo la altura de la palma.',
               esCorrecta: false,
             },
           ],
@@ -508,28 +508,148 @@ export default {
         },
         {
           id: 16,
-          texto: 'XXXXXXXXXXXXXXXXXXX',
+          texto: '¿Cuál es una práctica adecuada en el control de calidad del proceso?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Cortar todas las hojas disponibles.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Dejar frutos maduros en la palma.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Realizar solo cortes necesarios de hojas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mezclar frutos verdes con maduros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué se debe evitar durante la cosecha para mantener la calidad del fruto?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Transportar racimos en canastas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cortar únicamente racimos maduros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Organizar racimos en puntos definidos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'XXXXXXXXXXXXXXXXXXX',
+              texto: 'Dejar fruta madura sin cosechar.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Cómo debe realizarse el corte correcto del racimo?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'En forma de V y a ras del racimo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Con corte recto lejos del racimo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Con corte superficial sobre hojas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'De manera irregular sobre el tallo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué característica tiene el transporte realizado por el hombre?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alta capacidad y uso de maquinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Transporte exclusivo en vehículos grandes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Uso de sistemas hidráulicos complejos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso de canastas en terrenos difíciles.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una ventaja del uso de tracción animal en la recolección?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alta velocidad en grandes distancias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mayor capacidad que maquinaria pesada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Bajo costo y menor compactación del suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminación total del trabajo humano.',
               esCorrecta: false,
             },
           ],
